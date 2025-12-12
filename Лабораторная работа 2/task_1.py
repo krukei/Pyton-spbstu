@@ -15,7 +15,6 @@ while money >= 0:
         n += 1
     else:
         break
-    pay *= (1 + (increase))
-
-
+    pay *= (1 + increase)
+    
 print("Количество месяцев, которое можно протянуть без долгов:", n)

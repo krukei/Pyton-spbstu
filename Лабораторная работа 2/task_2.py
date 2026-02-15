@@ -48,10 +48,6 @@ class Library:
                 return index
         raise ValueError("Книги с запрашиваемым id не существует")
 
-
-
-        return self.book.id
-
 if __name__ == '__main__':
     empty_library = Library()  # инициализируем пустую библиотеку
     print(empty_library.get_next_book_id())  # проверяем следующий id для пустой библиотеки
